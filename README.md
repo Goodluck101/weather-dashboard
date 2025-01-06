@@ -30,13 +30,13 @@ Project Structure
 weather-dashboard/ ├── src/ │ ├── init.py │ └── weather_dashboard.py ├── tests/ ├── data/ ├── .env ├── .gitignore └── requirements.txt Copy
 
 Setup Instructions
-Clone the repository: --bash git clone https://github.com/ShaeInTheCloud/30days-weather-dashboard.git
+Clone the repository: --bash git clone https://github.com/Goodluck101/weather-dashboard.git
 
-Install dependencies: bashCopypip install -r requirements.txt
+Install dependencies: bash Copypip install -r requirements.txt
 
-Configure environment variables (.env): CopyOPENWEATHER_API_KEY=your_api_key AWS_BUCKET_NAME=your_bucket_name
+Configure environment variables (.env): Copy OPENWEATHER_API_KEY=your_api_key AWS_BUCKET_NAME=your_bucket_name
 
-4.Configure AWS credentials: bashCopyaws configure
+4.Configure AWS credentials: bash Copy aws configure
 
 Run the application: python src/weather_dashboard.py
 What I Learned
